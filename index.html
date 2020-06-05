@@ -2,20 +2,71 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Personal Website</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <p>TEST</p>
-        <script src="" async defer></script>
-    </body>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Personal Website</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- OVERLAY -->
+    <div class="overlay_first"></div>
+    <div class="overlay_second"></div>
+    <div class="overlay_third"></div>
+
+    <!-- HEADER -->
+    <header class="head_main">
+      <nav class="nav bg-grid">
+        <div>
+          <a href="#" class="nav_logo">CodeSwap</a>
+        </div>
+        <div class="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Services</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Blog</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main_bg_grid">
+      <div class="home">
+        <div class="home_info">
+          <span class="home_animated_text">Hello, people call me</span>
+          <h1 class="home_title">Swappy</h1>
+          <span class="home_animated_skill">Web Developer</span>
+          <div>
+            <a href="#" class="home_button">DOWNLOAD CV</a>
+          </div>
+        </div>
+        <div class="home_img">
+            <img src="assets/img/img.jpg" alt="">
+        </div>
+        <div class="home_social">
+            <ion-icon name="logo-facebook" class="home_social_icon"></ion-icon>
+            <ion-icon name="logo-instagram" class="home_social_icon"></ion-icon>
+            <ion-icon name="logo-twitter" class="home_social_icon"></ion-icon>
+        </div>
+      </div>
+    </main>
+
+    <!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+<!-- MAIN -->
+<script src="assets/js/main.js"></script>
+
+<!--ICONS-->
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"> </script>
+
+  </body>
 </html>

@@ -1,0 +1,10 @@
+Personal portfolio:
+
+1. User friendly
+2. Interactive
+3. Easy to access.
+4. Embedded links. 
+5. Video recordings of projects(Small snippets)
+6. Configurable.
+7. Dark mode??
+8. Minimalistic
